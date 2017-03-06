@@ -12,18 +12,14 @@ from tweepy.streaming import StreamListener
 from pymongo import MongoClient
 import json
 
-"""
-to construct the stream listener 3 tweepy imports 
-are used
-"""
 
-ckey = '7ftj9PzEF8VALBPALvmVJkvdl'
-consumer_secret = 'vz9ezOcUi0IOq0Qy5ymljdxvqJtA51SqlQUlsBfUSlySs3OS0Q'
-access_token_key = '834024146652823552-h1cSFoojO5UfwtN0BWKv6YUiwfDPE6n'
-access_token_secret = '4X2tXgHLLssJ2dAGo5ixQLwbAdkp7Q8fdhxspRwU2y9GB'
+ckey = ''
+consumer_secret = ''
+access_token_key = ''
+access_token_secret = ''
 
 start_time = time.time() #grabs system time
-keyword_list = ['the'] #track list 
+keyword_list = ['trump'] #track list 
 
 #Listener Class Override
 
